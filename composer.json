@@ -1,0 +1,24 @@
+{
+    "name": "haska/laravel-validation",
+    "description": "Laravel validation package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Haska",
+            "email": "david.haska@seznam.cz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~4.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Haska\\Validation": "src/"
+        }
+    }
+}
